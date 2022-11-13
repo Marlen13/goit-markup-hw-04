@@ -316,6 +316,14 @@ h1, h2, h3, h4, h5, h6, p {
     text-align:center;
 
 }
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-link {
+    display: block;
+}
 
 /* footer contacts*/
 .footer {
