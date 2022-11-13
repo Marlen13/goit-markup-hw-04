@@ -319,6 +319,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .clients-list {
     display: flex;
+    justify-content:center;
+    align-items: center;
     gap: 30px;
 }
 
