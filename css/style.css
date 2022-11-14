@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     gap: 30px;
 }
-
+/*
 .priopity-link {
     margin-bottom: 30px;
     width: 270px;
@@ -243,6 +243,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #F5F4FA;
 
 }
+*/
 /*section job*/
 
 .job {
