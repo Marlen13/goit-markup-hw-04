@@ -386,10 +386,15 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 60px;
     background-color: #212121; 
 }
+.footer-container {
+    display: flex;
+    justify-content: left;
+}
 
 .logo-footer {
     display:block;
     margin-bottom: 20px;
+    margin-right: 156px;
 }
 .adress {
     font-style: normal;
@@ -412,13 +417,26 @@ h1, h2, h3, h4, h5, h6, p {
 .adress-item:not(:last-child) {
     margin-bottom: 9px;
 }
+.footer-social-container {
+    display:flex;
+    flex-direction: column;
+    width: 206px;
+    height: 80px;
 
+}
 .social-title {
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
-    align-items: left;
+    align-items: center;
+    text-transform: uppercase;
     color: var(--white-text-color);
-
+}
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
 .footer-social-link {
     display: flex;
