@@ -130,15 +130,25 @@ h1, h2, h3, h4, h5, h6, p {
  .auth-nav .link:hover, .auth-nav .link:focus {
    color: var(--accent-text-color) ;
  }
-
+.auth-item {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.auth-icon:hover,
+.auth-icon:focus {
+    fill: var(--accent-text-color);
+}
 .mail {
     display:block;
     margin-right: 50px;
+    margin-left: 10px;
     color: var(--secondary-text-color);
 }
 
 .tel {
     display:block;
+    margin-left: 10px;
     
     color:var(--secondary-text-color);
 
@@ -147,12 +157,18 @@ h1, h2, h3, h4, h5, h6, p {
 /*title section*/
 
 .idea {
-    /*display: inline-block;*/
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
 
     text-align: center;
     background-color: #212121; 
+    background-image: url(../images/idea/hero.png), url(../images/idea/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .idea-title {
     
