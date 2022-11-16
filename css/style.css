@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6, p {
 
     text-align: center;
     background-color: #212121; 
-    
+    background-image: url(../images/idea/hero.png), url(../images/idea/img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
