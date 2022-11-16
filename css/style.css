@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6, p {
 
     text-align: center;
     background-color: #212121; 
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/idea/idea-hero.jpeg);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/idea/idea-hero.jpeg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -516,9 +516,8 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap;
     gap:var(--card-gap);
 }
-.choise-project-item:hover {
-    box-shadow: 1px 4px rgba(0, 0, 0, 0.16), 0px 4px rgba(0, 0, 0, 0.06), 0px 1px
-    rgba(0, 0, 0, 0.12);
+.project-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-wrapper {
