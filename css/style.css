@@ -519,6 +519,10 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 1px 4px rgba(0, 0, 0, 0.16), 0px 4px rgba(0, 0, 0, 0.06), 0px 1px
     rgba(0, 0, 0, 0.12);
 }
+.project-link:hover  {
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.16), 0px 4px rgba(0, 0, 0, 0.06), 0px 1px
+    rgba(0, 0, 0, 0.12);
+}
 .project-wrapper {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
