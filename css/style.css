@@ -135,20 +135,28 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
     align-items: center;
 }
+
+.auth-icon {
+
+    margin-right: 10px;
+    fill:currentColor;
+}
+
 .auth-icon:hover,
 .auth-icon:focus {
     fill: var(--accent-text-color);
 }
 .mail {
-    display:block;
+    display: flex;
+    align-items: center;
     margin-right: 50px;
-    margin-left: 10px;
+   
     color: var(--secondary-text-color);
 }
 
 .tel {
-    display:block;
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
     
     color:var(--secondary-text-color);
 
