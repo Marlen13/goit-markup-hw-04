@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p {
 .auth-item {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 .auth-icon:hover,
 .auth-icon:focus {
